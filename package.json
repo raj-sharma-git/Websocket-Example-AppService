@@ -1,22 +1,22 @@
 {
-  "name": "nodejs-websocket-example",
+  "name": "websocket-example-appservice",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js "
+    "start": "node app.js "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wahengchang/nodejs-websocket-example.git"
+    "url": "https://github.com/raj-sharma-git/Websocket-Example-AppService.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wahengchang/nodejs-websocket-example/issues"
+    "url": "https://github.com/raj-sharma-git/Websocket-Example-AppService//issues"
   },
-  "homepage": "https://github.com/wahengchang/nodejs-websocket-example#readme",
+  "homepage": "https://github.com/raj-sharma-git/Websocket-Example-AppService.git",
   "dependencies": {
     "express": "^4.16.2",
     "ws": "^3.2.0"
