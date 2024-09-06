@@ -1,15 +1,15 @@
 <h1>
-    Web Socket Example
+    Websocket: Hello!
 </h1>
 <p>
-    open console to see connection.
+    From dev-tools(ctrl+shift+i) open console to see the websocket connection.
 </p>
 <script>
 
     var ws =  new WebSocket({});
 
     ws.onopen = function () {
-        console.log('websocket is connected ...')
+        console.log('websocket is connected...')
         ws.send('connected')
     }
 
